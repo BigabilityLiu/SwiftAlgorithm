@@ -27,11 +27,9 @@ class Solution {
         var result = origin
         for i in 0..<origin.count / 2 {
             let randomIndex = Int.random(in: 0..<origin.count)
-            if randomIndex != i {
-                let temp = result[i]
-                result[i] = result[randomIndex]
-                result[randomIndex] = temp
-            }
+            let temp = result[i]
+            result[i] = result[randomIndex]
+            result[randomIndex] = temp
         }
         return result
     }

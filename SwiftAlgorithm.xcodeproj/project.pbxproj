@@ -7,7 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B3CA67824BCAC5C00CDBE4A /* 移动零.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3CA67724BCAC5C00CDBE4A /* 移动零.swift */; };
+		7B3CA67A24BCB31300CDBE4A /* 有效的数独.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3CA67924BCB31300CDBE4A /* 有效的数独.swift */; };
+		7B3CA67C24BD6FE700CDBE4A /* 旋转数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3CA67B24BD6FE700CDBE4A /* 旋转数组.swift */; };
+		7B3CA67E24BDA90800CDBE4A /* 验证回文字符串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3CA67D24BDA90800CDBE4A /* 验证回文字符串.swift */; };
+		7B3CA68024BDB0B400CDBE4A /* 字符串转换整数 (atoi).swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3CA67F24BDB0B400CDBE4A /* 字符串转换整数 (atoi).swift */; };
+		7B3CA68224BDF0EE00CDBE4A /* 实现 strStr().swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3CA68124BDF0EE00CDBE4A /* 实现 strStr().swift */; };
+		7B3CA68424BDF40E00CDBE4A /* 外观数列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3CA68324BDF40E00CDBE4A /* 外观数列.swift */; };
+		7B3CA68624BDFD2100CDBE4A /* 最长公共前缀.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3CA68524BDFD2100CDBE4A /* 最长公共前缀.swift */; };
 		7B55ACD32437921300BDE56A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B55ACD22437921300BDE56A /* main.swift */; };
+		7B5E849824AB613100DE152A /* 384.字符串中的第一个唯一字符.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5E849724AB613100DE152A /* 384.字符串中的第一个唯一字符.swift */; };
+		7B5E849B24AB6A1800DE152A /* 237. 删除链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5E849A24AB6A1800DE152A /* 237. 删除链表中的节点.swift */; };
+		7B5E849E24AB6A6F00DE152A /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5E849D24AB6A6F00DE152A /* ListNode.swift */; };
+		7BF9F3A824BAB8A800079ACA /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9F3A724BAB8A800079ACA /* TreeNode.swift */; };
+		7BF9F3AB24BAB8F600079ACA /* 对称二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9F3AA24BAB8F600079ACA /* 对称二叉树.swift */; };
+		7BF9F3AD24BAC54B00079ACA /* 排序和搜索.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9F3AC24BAC54B00079ACA /* 排序和搜索.swift */; };
+		7BF9F3B024BACB4100079ACA /* 爬楼梯.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9F3AF24BACB4100079ACA /* 爬楼梯.swift */; };
+		7BF9F3B324BAD2AE00079ACA /* 买卖股票的最佳时机.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9F3B224BAD2AE00079ACA /* 买卖股票的最佳时机.swift */; };
+		7BF9F3B624BAD89200079ACA /* 384. 打乱数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9F3B524BAD89200079ACA /* 384. 打乱数组.swift */; };
+		7BF9F3B824BAF87F00079ACA /* 计数质数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9F3B724BAF87F00079ACA /* 计数质数.swift */; };
+		7BF9F3BA24BB010200079ACA /* 位1的个数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9F3B924BB010200079ACA /* 位1的个数.swift */; };
+		7BF9F3BD24BB4D0600079ACA /* 汉明距离.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9F3BC24BB4D0600079ACA /* 汉明距离.swift */; };
+		7BF9F3BF24BC156C00079ACA /* 颠倒二进制位.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9F3BE24BC156C00079ACA /* 颠倒二进制位.swift */; };
+		7BF9F3C124BC19F400079ACA /* 两个数组的交集 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9F3C024BC19F400079ACA /* 两个数组的交集 II.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +45,30 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7B3CA67724BCAC5C00CDBE4A /* 移动零.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "移动零.swift"; sourceTree = "<group>"; };
+		7B3CA67924BCB31300CDBE4A /* 有效的数独.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "有效的数独.swift"; sourceTree = "<group>"; };
+		7B3CA67B24BD6FE700CDBE4A /* 旋转数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "旋转数组.swift"; sourceTree = "<group>"; };
+		7B3CA67D24BDA90800CDBE4A /* 验证回文字符串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "验证回文字符串.swift"; sourceTree = "<group>"; };
+		7B3CA67F24BDB0B400CDBE4A /* 字符串转换整数 (atoi).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "字符串转换整数 (atoi).swift"; sourceTree = "<group>"; };
+		7B3CA68124BDF0EE00CDBE4A /* 实现 strStr().swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "实现 strStr().swift"; sourceTree = "<group>"; };
+		7B3CA68324BDF40E00CDBE4A /* 外观数列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "外观数列.swift"; sourceTree = "<group>"; };
+		7B3CA68524BDFD2100CDBE4A /* 最长公共前缀.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "最长公共前缀.swift"; sourceTree = "<group>"; };
 		7B55ACCF2437921300BDE56A /* SwiftAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B55ACD22437921300BDE56A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7B5E849724AB613100DE152A /* 384.字符串中的第一个唯一字符.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "384.字符串中的第一个唯一字符.swift"; sourceTree = "<group>"; };
+		7B5E849A24AB6A1800DE152A /* 237. 删除链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "237. 删除链表中的节点.swift"; sourceTree = "<group>"; };
+		7B5E849D24AB6A6F00DE152A /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		7BF9F3A724BAB8A800079ACA /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		7BF9F3AA24BAB8F600079ACA /* 对称二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "对称二叉树.swift"; sourceTree = "<group>"; };
+		7BF9F3AC24BAC54B00079ACA /* 排序和搜索.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "排序和搜索.swift"; sourceTree = "<group>"; };
+		7BF9F3AF24BACB4100079ACA /* 爬楼梯.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "爬楼梯.swift"; sourceTree = "<group>"; };
+		7BF9F3B224BAD2AE00079ACA /* 买卖股票的最佳时机.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "买卖股票的最佳时机.swift"; sourceTree = "<group>"; };
+		7BF9F3B524BAD89200079ACA /* 384. 打乱数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "384. 打乱数组.swift"; sourceTree = "<group>"; };
+		7BF9F3B724BAF87F00079ACA /* 计数质数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "计数质数.swift"; sourceTree = "<group>"; };
+		7BF9F3B924BB010200079ACA /* 位1的个数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "位1的个数.swift"; sourceTree = "<group>"; };
+		7BF9F3BC24BB4D0600079ACA /* 汉明距离.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "汉明距离.swift"; sourceTree = "<group>"; };
+		7BF9F3BE24BC156C00079ACA /* 颠倒二进制位.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "颠倒二进制位.swift"; sourceTree = "<group>"; };
+		7BF9F3C024BC19F400079ACA /* 两个数组的交集 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "两个数组的交集 II.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +102,86 @@
 			isa = PBXGroup;
 			children = (
 				7B55ACD22437921300BDE56A /* main.swift */,
+				7BF9F3AE24BAC6E000079ACA /* 数组 */,
+				7B5E849924AB69EF00DE152A /* 字符串 */,
+				7B5E849C24AB6A4D00DE152A /* 链表 */,
+				7BF9F3A924BAB8DB00079ACA /* Tree */,
+				7BF9F3B124BAD29400079ACA /* 动态规划 */,
+				7BF9F3B424BAD87300079ACA /* 设计问题 */,
+				7BF9F3BB24BB010800079ACA /* 其他 */,
 			);
 			path = SwiftAlgorithm;
+			sourceTree = "<group>";
+		};
+		7B5E849924AB69EF00DE152A /* 字符串 */ = {
+			isa = PBXGroup;
+			children = (
+				7B5E849724AB613100DE152A /* 384.字符串中的第一个唯一字符.swift */,
+				7B3CA67D24BDA90800CDBE4A /* 验证回文字符串.swift */,
+				7B3CA67F24BDB0B400CDBE4A /* 字符串转换整数 (atoi).swift */,
+				7B3CA68124BDF0EE00CDBE4A /* 实现 strStr().swift */,
+				7B3CA68324BDF40E00CDBE4A /* 外观数列.swift */,
+				7B3CA68524BDFD2100CDBE4A /* 最长公共前缀.swift */,
+			);
+			path = "字符串";
+			sourceTree = "<group>";
+		};
+		7B5E849C24AB6A4D00DE152A /* 链表 */ = {
+			isa = PBXGroup;
+			children = (
+				7B5E849D24AB6A6F00DE152A /* ListNode.swift */,
+				7B5E849A24AB6A1800DE152A /* 237. 删除链表中的节点.swift */,
+			);
+			path = "链表";
+			sourceTree = "<group>";
+		};
+		7BF9F3A924BAB8DB00079ACA /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				7BF9F3A724BAB8A800079ACA /* TreeNode.swift */,
+				7BF9F3AA24BAB8F600079ACA /* 对称二叉树.swift */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+		7BF9F3AE24BAC6E000079ACA /* 数组 */ = {
+			isa = PBXGroup;
+			children = (
+				7BF9F3AC24BAC54B00079ACA /* 排序和搜索.swift */,
+				7B3CA67724BCAC5C00CDBE4A /* 移动零.swift */,
+				7B3CA67924BCB31300CDBE4A /* 有效的数独.swift */,
+				7B3CA67B24BD6FE700CDBE4A /* 旋转数组.swift */,
+			);
+			path = "数组";
+			sourceTree = "<group>";
+		};
+		7BF9F3B124BAD29400079ACA /* 动态规划 */ = {
+			isa = PBXGroup;
+			children = (
+				7BF9F3AF24BACB4100079ACA /* 爬楼梯.swift */,
+				7BF9F3B224BAD2AE00079ACA /* 买卖股票的最佳时机.swift */,
+			);
+			path = "动态规划";
+			sourceTree = "<group>";
+		};
+		7BF9F3B424BAD87300079ACA /* 设计问题 */ = {
+			isa = PBXGroup;
+			children = (
+				7BF9F3B524BAD89200079ACA /* 384. 打乱数组.swift */,
+				7BF9F3B724BAF87F00079ACA /* 计数质数.swift */,
+			);
+			path = "设计问题";
+			sourceTree = "<group>";
+		};
+		7BF9F3BB24BB010800079ACA /* 其他 */ = {
+			isa = PBXGroup;
+			children = (
+				7BF9F3B924BB010200079ACA /* 位1的个数.swift */,
+				7BF9F3BC24BB4D0600079ACA /* 汉明距离.swift */,
+				7BF9F3BE24BC156C00079ACA /* 颠倒二进制位.swift */,
+				7BF9F3C024BC19F400079ACA /* 两个数组的交集 II.swift */,
+			);
+			path = "其他";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +242,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B3CA68424BDF40E00CDBE4A /* 外观数列.swift in Sources */,
+				7B3CA67E24BDA90800CDBE4A /* 验证回文字符串.swift in Sources */,
+				7B5E849B24AB6A1800DE152A /* 237. 删除链表中的节点.swift in Sources */,
+				7B3CA68224BDF0EE00CDBE4A /* 实现 strStr().swift in Sources */,
+				7BF9F3BF24BC156C00079ACA /* 颠倒二进制位.swift in Sources */,
+				7BF9F3B624BAD89200079ACA /* 384. 打乱数组.swift in Sources */,
+				7B3CA68624BDFD2100CDBE4A /* 最长公共前缀.swift in Sources */,
+				7BF9F3AB24BAB8F600079ACA /* 对称二叉树.swift in Sources */,
+				7B5E849824AB613100DE152A /* 384.字符串中的第一个唯一字符.swift in Sources */,
+				7BF9F3B324BAD2AE00079ACA /* 买卖股票的最佳时机.swift in Sources */,
+				7BF9F3C124BC19F400079ACA /* 两个数组的交集 II.swift in Sources */,
+				7BF9F3B024BACB4100079ACA /* 爬楼梯.swift in Sources */,
+				7BF9F3B824BAF87F00079ACA /* 计数质数.swift in Sources */,
+				7BF9F3AD24BAC54B00079ACA /* 排序和搜索.swift in Sources */,
+				7BF9F3BD24BB4D0600079ACA /* 汉明距离.swift in Sources */,
+				7B3CA67A24BCB31300CDBE4A /* 有效的数独.swift in Sources */,
 				7B55ACD32437921300BDE56A /* main.swift in Sources */,
+				7BF9F3A824BAB8A800079ACA /* TreeNode.swift in Sources */,
+				7B3CA67824BCAC5C00CDBE4A /* 移动零.swift in Sources */,
+				7BF9F3BA24BB010200079ACA /* 位1的个数.swift in Sources */,
+				7B3CA67C24BD6FE700CDBE4A /* 旋转数组.swift in Sources */,
+				7B3CA68024BDB0B400CDBE4A /* 字符串转换整数 (atoi).swift in Sources */,
+				7B5E849E24AB6A6F00DE152A /* ListNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

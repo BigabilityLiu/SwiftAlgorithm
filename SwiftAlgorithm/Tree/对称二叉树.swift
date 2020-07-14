@@ -7,3 +7,24 @@
 //
 
 import Foundation
+
+
+func isSymmetric(_ root: TreeNode?) -> Bool {
+    if root == nil {
+        return true
+    }
+    
+    return isSymmetricOf(root!.left,  root!.right)
+}
+func isSymmetricOf(_ left: TreeNode?, _  right: TreeNode?) -> Bool{
+    if left == nil && right == nil {
+        return true
+    }
+    if left == nil || right == nil {
+        return false
+    }
+    if left!.val != right!.val {
+        return false
+    }
+    return isSymmetricOf(left!.left, right!.right) && isSymmetricOf(left!.right, right!.left)
+}

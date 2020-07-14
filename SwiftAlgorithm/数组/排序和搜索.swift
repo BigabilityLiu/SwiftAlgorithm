@@ -15,13 +15,22 @@ func merge(_ nums1: inout [Int], _ m: Int, _ nums2: [Int], _ n: Int) {
     if m == 0 {
         nums1 = nums2
     }
-    var index = 0
-    for i in 0..<n {
-        if nums2[i] <= nums1[index] {
-            nums1.insert(nums2[i], at: index)
+    var index1 = 0, index2 = 0, length = m
+    while index1 < length && index2 < n {
+        if nums2[index2] <= nums1[index1] {
+            nums1.insert(nums2[index2], at: index1)
+            index2 += 1
+            index1 += 1
+            length += 1
+        } else {
+            index1 += 1
         }
-        index += 1
     }
+    for i in index2..<n {
+        nums1.insert(nums2[i], at: index1)
+        index1 += 1
+    }
+    nums1.removeLast(nums1.count - m - n)
 }
 //class Solution {
 //    func merge(_ nums1: inout [Int], _ m: Int, _ nums2: [Int], _ n: Int) {
