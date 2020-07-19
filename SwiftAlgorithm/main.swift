@@ -63,8 +63,23 @@ if sA.count != sB.count {
 }
 */
 
-//let a = ListNode(1)
-//a.next = ListNode(2)
+let a = ListNode(1)
+a.next = ListNode(2)
+a.next!.next = ListNode(1)
+
+
+let b = ListNode(1)
+b.next = ListNode(2)
+b.next!.next = ListNode(4)
 //reverseList(a)
 
-print(longestCommonPrefix(["flower","flow","flight"]))
+let root = TreeNode(1)
+let left = TreeNode(2)
+let right = TreeNode(3)
+root.left = left
+root.right = right
+left.left = TreeNode(4)
+left.right = TreeNode(5)
+
+//print(longestPalindrome("babad"))
+print(increasingTriplet([5,1,5,5,2,5,4]))

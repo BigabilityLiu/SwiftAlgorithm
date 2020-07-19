@@ -7,3 +7,16 @@
 //
 
 import Foundation
+
+func hammingWeight(_ n: Int) -> Int {
+    var result = 0
+    var flag = 1
+    while flag > 0 {
+        if (n & flag) > 0 {
+            result += 1
+        }
+        flag = flag << 1
+    }
+    return result
+}
+
