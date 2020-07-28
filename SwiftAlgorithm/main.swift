@@ -10,47 +10,49 @@ import Foundation
 /*
 let s1 =
 """
-"编辑临时商品"
-"商品同步到网店"
-"该功能需高级会员才可使用"
-"无条件舍去[小数点]"
-"无条件舍去[小数点第2位]"
-"扫会员码"
-"输入会员码"
-"未找到列印收银小票单的印单机，请前往配置"
-"未找到小票列印模版"
-"请前往小票模版查看"
-"未找到列印收银小票单的印单机"
-"请前往打印机配置"
-"找零"
-"找零金额"
-"找零金额=找零金额"
-"未找到列印日结单的印单机"
-"未找到列印交接单的印单机"
-"第三方物流"
-"请添加商品图片"
+"收款连结"
+"付款连结"
+"付款金额"
+"当前状态"
+"门店名称"
+"门店编号"
+"交易时间"
+"交易类型"
+"交易卡号"
+"商品内容"
+"留言"
+"与"
+"《ume商户会员使用协议》"
+"《商户会员隐私协议》"
+"请先阅读并同意协议后，方能成为注册会员！"
+"同意"
+"该订单无需开立发票"
+"请安装Line APP"
+"分享到"
+"复制成功"
 """
 let s2 =
 """
-"編輯臨時商品"
-"商品同步到網店"
-"該功能需高級會員才可使用"
-"無條件捨去[小數點]"
-"無條件捨去[小數點第2位]"
-"掃會員碼"
-"輸入會員碼"
-"未找到列印收銀小票單的印單機，請前往配置"
-"未找到小票列印模版"
-"請前往小票模版查看"
-"未找到列印收銀小票單的印單機"
-"請前往打印機配置"
-"找零"
-"找零金額"
-"找零金額=找零金額"
-"未找到列印日結單的印單機"
-"未找到列印交接單的印單機"
-"第三方物流"
-"請添加商品圖片"
+"收款連結"
+"付款連結"
+"付款金額"
+"當前狀態"
+"門店名稱"
+"門店編號"
+"交易時間"
+"交易類型"
+"交易卡號"
+"商品內容"
+"留言"
+"與"
+"《ume商戶會員使用協議》"
+"《商戶會員隱私協議》"
+"請先閱讀並同意協定後，方能成為註冊會員！"
+"同意"
+"該訂單無需開立發票"
+"請安裝Line APP"
+"分享到"
+"複製成功"
 """
 let sA = s1.components(separatedBy: "\n")
 let sB = s2.components(separatedBy: "\n")
@@ -63,23 +65,26 @@ if sA.count != sB.count {
 }
 */
 
-let a = ListNode(1)
-a.next = ListNode(2)
-a.next!.next = ListNode(1)
+let a = ListNode(5)
+a.next = ListNode(6)
+a.next!.next = ListNode(4)
 
 
-let b = ListNode(1)
-b.next = ListNode(2)
-b.next!.next = ListNode(4)
+let b = ListNode(2)
+b.next = ListNode(1)
+b.next!.next = ListNode(3)
 //reverseList(a)
 
-let root = TreeNode(1)
-let left = TreeNode(2)
-let right = TreeNode(3)
+let root = TreeNode(5)
+let left = TreeNode(6)
+let right = TreeNode(4)
 root.left = left
 root.right = right
 left.left = TreeNode(4)
 left.right = TreeNode(5)
 
-//print(longestPalindrome("babad"))
-print(increasingTriplet([5,1,5,5,2,5,4]))
+let c = ListNode(7)
+a.next = c
+b.next = c
+
+print(permute([5,4,6,2]))
