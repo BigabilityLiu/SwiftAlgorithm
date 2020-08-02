@@ -37,6 +37,8 @@
 		7B5F6A2D24CD801E004560BE /* 括号生成.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F6A2C24CD801E004560BE /* 括号生成.swift */; };
 		7B5F6A2F24CDA63E004560BE /* 全排列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F6A2E24CDA63E004560BE /* 全排列.swift */; };
 		7B5F6A3124CDA944004560BE /* 子集.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F6A3024CDA944004560BE /* 子集.swift */; };
+		7B686A1924D5A31500928470 /* 215. 数组中的第K个最大元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B686A1824D5A31500928470 /* 215. 数组中的第K个最大元素.swift */; };
+		7B686A1B24D5B70800928470 /* 寻找峰值.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B686A1A24D5B70800928470 /* 寻找峰值.swift */; };
 		7B7201C224C080B800820C63 /* 第一个错误的版本.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7201C124C080B800820C63 /* 第一个错误的版本.swift */; };
 		7B7201C824C0993600820C63 /* *198. 打家劫舍.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7201C724C0993600820C63 /* *198. 打家劫舍.swift */; };
 		7B7201CA24C09DC100820C63 /* 最小栈.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7201C924C09DC100820C63 /* 最小栈.swift */; };
@@ -111,6 +113,8 @@
 		7B5F6A2C24CD801E004560BE /* 括号生成.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "括号生成.swift"; sourceTree = "<group>"; };
 		7B5F6A2E24CDA63E004560BE /* 全排列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "全排列.swift"; sourceTree = "<group>"; };
 		7B5F6A3024CDA944004560BE /* 子集.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "子集.swift"; sourceTree = "<group>"; };
+		7B686A1824D5A31500928470 /* 215. 数组中的第K个最大元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "215. 数组中的第K个最大元素.swift"; sourceTree = "<group>"; };
+		7B686A1A24D5B70800928470 /* 寻找峰值.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "寻找峰值.swift"; sourceTree = "<group>"; };
 		7B7201C124C080B800820C63 /* 第一个错误的版本.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "第一个错误的版本.swift"; sourceTree = "<group>"; };
 		7B7201C724C0993600820C63 /* *198. 打家劫舍.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "*198. 打家劫舍.swift"; sourceTree = "<group>"; };
 		7B7201C924C09DC100820C63 /* 最小栈.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "最小栈.swift"; sourceTree = "<group>"; };
@@ -182,6 +186,8 @@
 				7B7201CD24C0A16700820C63 /* 数学问题 */,
 				7B5F6A2B24CD7554004560BE /* 回溯算法 */,
 				7BF9F3BB24BB010800079ACA /* 其他 */,
+				7B686A1824D5A31500928470 /* 215. 数组中的第K个最大元素.swift */,
+				7B686A1A24D5B70800928470 /* 寻找峰值.swift */,
 			);
 			path = SwiftAlgorithm;
 			sourceTree = "<group>";
@@ -375,6 +381,7 @@
 				7B3CA68424BDF40E00CDBE4A /* 外观数列.swift in Sources */,
 				7B3CA67E24BDA90800CDBE4A /* 验证回文字符串.swift in Sources */,
 				7B179DC924C84FD800848515 /* 733. 图像渲染.swift in Sources */,
+				7B686A1924D5A31500928470 /* 215. 数组中的第K个最大元素.swift in Sources */,
 				7B3CA69124BF538100CDBE4A /* 二叉树的层序遍历.swift in Sources */,
 				7B5E849B24AB6A1800DE152A /* 237. 删除链表中的节点.swift in Sources */,
 				7B3CA68824BEA9BF00CDBE4A /* 合并两个有序链表.swift in Sources */,
@@ -412,6 +419,7 @@
 				7B5F6A2524CD6A42004560BE /* 二叉搜索树中第K小的元素.swift in Sources */,
 				7B5F6A2324CD5DFF004560BE /* 填充每个节点的下一个右侧节点指针.swift in Sources */,
 				7B55ACD32437921300BDE56A /* main.swift in Sources */,
+				7B686A1B24D5B70800928470 /* 寻找峰值.swift in Sources */,
 				7B5F6A3124CDA944004560BE /* 子集.swift in Sources */,
 				7BB4931A24C1F6EB00ED502E /*  帕斯卡三角形.swift in Sources */,
 				7BB4932424C3440C00ED502E /* 矩阵置零.swift in Sources */,
@@ -551,10 +559,13 @@
 		7B55ACD72437921300BDE56A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = M472G395VP;
 				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuxudong.swiftalgorithm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -562,10 +573,13 @@
 		7B55ACD82437921300BDE56A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = M472G395VP;
 				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuxudong.swiftalgorithm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
