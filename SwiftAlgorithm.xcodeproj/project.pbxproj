@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62884F3424D1C7B10058BFEE /* 颜色分类.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62884F3324D1C7B10058BFEE /* 颜色分类.swift */; };
+		62A853BB24D1D43B00580CA8 /* 前 K 个高频元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A853BA24D1D43B00580CA8 /* 前 K 个高频元素.swift */; };
+		62CC9F3D24D07D8900008D02 /* 单词搜索.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CC9F3C24D07D8900008D02 /* 单词搜索.swift */; };
 		7B179DC924C84FD800848515 /* 733. 图像渲染.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B179DC824C84FD800848515 /* 733. 图像渲染.swift */; };
 		7B179DCB24C972B600848515 /* 奇偶链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B179DCA24C972B600848515 /* 奇偶链表.swift */; };
 		7B3CA67824BCAC5C00CDBE4A /* 移动零.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3CA67724BCAC5C00CDBE4A /* 移动零.swift */; };
@@ -80,6 +83,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		62884F3324D1C7B10058BFEE /* 颜色分类.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "颜色分类.swift"; sourceTree = "<group>"; };
+		62A853BA24D1D43B00580CA8 /* 前 K 个高频元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "前 K 个高频元素.swift"; sourceTree = "<group>"; };
+		62CC9F3C24D07D8900008D02 /* 单词搜索.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "单词搜索.swift"; sourceTree = "<group>"; };
 		7B179DC824C84FD800848515 /* 733. 图像渲染.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "733. 图像渲染.swift"; sourceTree = "<group>"; };
 		7B179DCA24C972B600848515 /* 奇偶链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "奇偶链表.swift"; sourceTree = "<group>"; };
 		7B3CA67724BCAC5C00CDBE4A /* 移动零.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "移动零.swift"; sourceTree = "<group>"; };
@@ -152,6 +158,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62884F3524D1C7B80058BFEE /* 排序和搜索 */ = {
+			isa = PBXGroup;
+			children = (
+				62884F3324D1C7B10058BFEE /* 颜色分类.swift */,
+				62A853BA24D1D43B00580CA8 /* 前 K 个高频元素.swift */,
+			);
+			path = "排序和搜索";
+			sourceTree = "<group>";
+		};
 		7B55ACC62437921300BDE56A = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +196,7 @@
 				7BF9F3B424BAD87300079ACA /* 设计问题 */,
 				7B7201CD24C0A16700820C63 /* 数学问题 */,
 				7B5F6A2B24CD7554004560BE /* 回溯算法 */,
+				62884F3524D1C7B80058BFEE /* 排序和搜索 */,
 				7BF9F3BB24BB010800079ACA /* 其他 */,
 			);
 			path = SwiftAlgorithm;
@@ -234,6 +250,7 @@
 				7B5F6A2C24CD801E004560BE /* 括号生成.swift */,
 				7B5F6A2E24CDA63E004560BE /* 全排列.swift */,
 				7B5F6A3024CDA944004560BE /* 子集.swift */,
+				62CC9F3C24D07D8900008D02 /* 单词搜索.swift */,
 			);
 			path = "回溯算法";
 			sourceTree = "<group>";
@@ -379,6 +396,7 @@
 				7B5E849B24AB6A1800DE152A /* 237. 删除链表中的节点.swift in Sources */,
 				7B3CA68824BEA9BF00CDBE4A /* 合并两个有序链表.swift in Sources */,
 				7B5F6A2D24CD801E004560BE /* 括号生成.swift in Sources */,
+				62884F3424D1C7B10058BFEE /* 颜色分类.swift in Sources */,
 				7B5F6A1B24C9BD1A004560BE /* 相交链表.swift in Sources */,
 				7B7201CC24C0A16000820C63 /* 326. 3的幂.swift in Sources */,
 				7B3CA68224BDF0EE00CDBE4A /* 实现 strStr().swift in Sources */,
@@ -397,6 +415,7 @@
 				7B7201CF24C132BF00820C63 /* 罗马数字转整数.swift in Sources */,
 				7B7201C824C0993600820C63 /* *198. 打家劫舍.swift in Sources */,
 				7B5F6A2A24CD754A004560BE /* 电话号码的字母组合.swift in Sources */,
+				62A853BB24D1D43B00580CA8 /* 前 K 个高频元素.swift in Sources */,
 				7BB492F824C186B500ED502E /* 543. 二叉树的直径.swift in Sources */,
 				7BF9F3C124BC19F400079ACA /* 两个数组的交集 II.swift in Sources */,
 				7BB4931E24C282B100ED502E /* 最大子序和.swift in Sources */,
@@ -429,6 +448,7 @@
 				7B3CA67C24BD6FE700CDBE4A /* 旋转数组.swift in Sources */,
 				7B3CA68024BDB0B400CDBE4A /* 字符串转换整数 (atoi).swift in Sources */,
 				7B5E849E24AB6A6F00DE152A /* ListNode.swift in Sources */,
+				62CC9F3D24D07D8900008D02 /* 单词搜索.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
