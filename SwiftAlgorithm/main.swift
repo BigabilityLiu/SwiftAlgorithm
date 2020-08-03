@@ -70,4 +70,7 @@ a.next = c
 b.next = c
 
 
-print(topKFrequent([1,1,2,2,3,3], 2))
+print(searchRange([1,1], 2))
+print(searchRange([1,1], 1))
+print(searchRange([1,1,2], 1))
+print(searchRange([1,1,2], 2))

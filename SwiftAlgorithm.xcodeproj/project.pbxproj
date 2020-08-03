@@ -55,6 +55,7 @@
 		7BB4932224C320E000ED502E /* 三数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB4932124C320E000ED502E /* 三数之和.swift */; };
 		7BB4932424C3440C00ED502E /* 矩阵置零.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB4932324C3440C00ED502E /* 矩阵置零.swift */; };
 		7BB4932624C3E21D00ED502E /* 49. 字母异位词分组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB4932524C3E21D00ED502E /* 49. 字母异位词分组.swift */; };
+		7BC28A2924D713F9000881AE /* 在排序数组中查找元素的第一个和最后一个位置.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC28A2824D713F9000881AE /* 在排序数组中查找元素的第一个和最后一个位置.swift */; };
 		7BE59D5C24C415A9008684F9 /* 无重复字符的最长子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE59D5B24C415A9008684F9 /* 无重复字符的最长子串.swift */; };
 		7BE59D5E24C42D73008684F9 /* 最长回文子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE59D5D24C42D73008684F9 /* 最长回文子串.swift */; };
 		7BE59D6024C448B8008684F9 /* 递增的三元子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE59D5F24C448B8008684F9 /* 递增的三元子序列.swift */; };
@@ -134,6 +135,7 @@
 		7BB4932124C320E000ED502E /* 三数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "三数之和.swift"; sourceTree = "<group>"; };
 		7BB4932324C3440C00ED502E /* 矩阵置零.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "矩阵置零.swift"; sourceTree = "<group>"; };
 		7BB4932524C3E21D00ED502E /* 49. 字母异位词分组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "49. 字母异位词分组.swift"; sourceTree = "<group>"; };
+		7BC28A2824D713F9000881AE /* 在排序数组中查找元素的第一个和最后一个位置.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "在排序数组中查找元素的第一个和最后一个位置.swift"; sourceTree = "<group>"; };
 		7BE59D5B24C415A9008684F9 /* 无重复字符的最长子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "无重复字符的最长子串.swift"; sourceTree = "<group>"; };
 		7BE59D5D24C42D73008684F9 /* 最长回文子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "最长回文子串.swift"; sourceTree = "<group>"; };
 		7BE59D5F24C448B8008684F9 /* 递增的三元子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "递增的三元子序列.swift"; sourceTree = "<group>"; };
@@ -167,6 +169,9 @@
 			children = (
 				62884F3324D1C7B10058BFEE /* 颜色分类.swift */,
 				62A853BA24D1D43B00580CA8 /* 前 K 个高频元素.swift */,
+				7B686A1824D5A31500928470 /* 215. 数组中的第K个最大元素.swift */,
+				7B686A1A24D5B70800928470 /* 寻找峰值.swift */,
+				7BC28A2824D713F9000881AE /* 在排序数组中查找元素的第一个和最后一个位置.swift */,
 			);
 			path = "排序和搜索";
 			sourceTree = "<group>";
@@ -202,8 +207,6 @@
 				7B5F6A2B24CD7554004560BE /* 回溯算法 */,
 				62884F3524D1C7B80058BFEE /* 排序和搜索 */,
 				7BF9F3BB24BB010800079ACA /* 其他 */,
-				7B686A1824D5A31500928470 /* 215. 数组中的第K个最大元素.swift */,
-				7B686A1A24D5B70800928470 /* 寻找峰值.swift */,
 			);
 			path = SwiftAlgorithm;
 			sourceTree = "<group>";
@@ -457,6 +460,7 @@
 				7B3CA68024BDB0B400CDBE4A /* 字符串转换整数 (atoi).swift in Sources */,
 				7B5E849E24AB6A6F00DE152A /* ListNode.swift in Sources */,
 				62CC9F3D24D07D8900008D02 /* 单词搜索.swift in Sources */,
+				7BC28A2924D713F9000881AE /* 在排序数组中查找元素的第一个和最后一个位置.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
