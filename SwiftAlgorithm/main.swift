@@ -69,8 +69,6 @@ let c = ListNode(7)
 a.next = c
 b.next = c
 
-
-print(searchRange([1,1], 2))
-print(searchRange([1,1], 1))
-print(searchRange([1,1,2], 1))
-print(searchRange([1,1,2], 2))
+print(uniquePaths(1, 16))
+print(uniquePaths(2, 8))
+print(uniquePaths(4, 4))
