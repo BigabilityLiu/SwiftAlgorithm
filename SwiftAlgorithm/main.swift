@@ -69,5 +69,6 @@ let c = ListNode(7)
 a.next = c
 b.next = c
 
-
-print(topKFrequent([1,1,2,2,3,3], 2))
+print(evalRPN(["2", "1", "+", "3", "*"]))
+print(evalRPN(["4", "13", "5", "/", "+"]))
+print(evalRPN(["10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"]))
