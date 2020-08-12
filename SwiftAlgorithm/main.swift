@@ -9,31 +9,27 @@
 import Foundation
 let s1 =
 """
-"获取优惠券成功"
-"门店ID"
-"商品条码需在22位以内"
-"会员等级名称不得大于16个字元"
-"超级管理员不可更改职级"
-"*该手机号已是手机会员但还未成为门店会员，新增此会员时，等级和备注外其他资料不可编辑"
-"商品名称不能多于12位中文或24位英文"
-"扫码支付(境内交易)"
-"LINE境外消费"
-"所有"
-"*除会员等级和备注外其他资料不可编辑"
+"已退款"
+"待付款"
+"安全验证"
+"输入员工密码"
+"输入超级管理员密码"
+"密码不能为空"
+"作废发票成功"
+"确认"
+"门市电话"
 """
 let s2 =
 """
-"獲取優惠券成功"
-"門店ID"
-"商品條碼需在22位以內"
-"會員等級名稱不得大於16個字元"
-"超級管理員不可更改職級"
-"*該手機號已是手機會員但還未成為門店會員，新增此會員時，等級和備註外其他資料不可編輯"
-"商品名稱不能多於12位中文或24位英文"
-"掃碼支付(境內交易)"
-"LINE境外消費"
-"所有"
-"*除會員等級和備註外其他資料不可編輯"
+"refunded"
+"Pending payment"
+"safety verification"
+"Enter employee password"
+"Enter the super administrator password"
+"password can not be blank"
+"Void the invoice successfully"
+"confirm"
+"Store Phone"
 """
 
 //let sA = s1.components(separatedBy: "\n")
@@ -57,18 +53,21 @@ b.next = ListNode(1)
 b.next!.next = ListNode(3)
 //reverseList(a)
 
-let root = TreeNode(5)
-let left = TreeNode(6)
-let right = TreeNode(4)
+let root = TreeNode(1)
+let left = TreeNode(2)
+let right = TreeNode(3)
 root.left = left
 root.right = right
-left.left = TreeNode(4)
-left.right = TreeNode(5)
+right.left = TreeNode(4)
+right.right = TreeNode(5)
+
+right.left!.left = TreeNode(6)
+right.left!.right = TreeNode(7)
 
 let c = ListNode(7)
 a.next = c
 b.next = c
 
-print(uniquePaths(1, 16))
-print(uniquePaths(2, 8))
-print(uniquePaths(4, 4))
+print(findMedianSortedArrays([1, 3], [2]))
+print(findMedianSortedArrays([1, 2], [3, 4]))
+print(findMedianSortedArrays([1, 3], [2, 4]))
