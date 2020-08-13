@@ -60,6 +60,7 @@
 		7B7201CC24C0A16000820C63 /* 326. 3的幂.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7201CB24C0A16000820C63 /* 326. 3的幂.swift */; };
 		7B7201CF24C132BF00820C63 /* 罗马数字转整数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7201CE24C132BF00820C63 /* 罗马数字转整数.swift */; };
 		7BB30F9824E4378800038DCD /* 寻找两个正序数组的中位数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB30F9724E4378800038DCD /* 寻找两个正序数组的中位数.swift */; };
+		7BB30F9A24E4E4BE00038DCD /* 最接近的三数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB30F9924E4E4BE00038DCD /* 最接近的三数之和.swift */; };
 		7BB492F824C186B500ED502E /* 543. 二叉树的直径.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB492F724C186B500ED502E /* 543. 二叉树的直径.swift */; };
 		7BB4931A24C1F6EB00ED502E /*  帕斯卡三角形.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB4931924C1F6EB00ED502E /*  帕斯卡三角形.swift */; };
 		7BB4931C24C1FA2300ED502E /* 缺失数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB4931B24C1FA2300ED502E /* 缺失数字.swift */; };
@@ -156,6 +157,7 @@
 		7B7201CB24C0A16000820C63 /* 326. 3的幂.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "326. 3的幂.swift"; sourceTree = "<group>"; };
 		7B7201CE24C132BF00820C63 /* 罗马数字转整数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "罗马数字转整数.swift"; sourceTree = "<group>"; };
 		7BB30F9724E4378800038DCD /* 寻找两个正序数组的中位数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "寻找两个正序数组的中位数.swift"; sourceTree = "<group>"; };
+		7BB30F9924E4E4BE00038DCD /* 最接近的三数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "最接近的三数之和.swift"; sourceTree = "<group>"; };
 		7BB492F724C186B500ED502E /* 543. 二叉树的直径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "543. 二叉树的直径.swift"; sourceTree = "<group>"; };
 		7BB4931924C1F6EB00ED502E /*  帕斯卡三角形.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " 帕斯卡三角形.swift"; sourceTree = "<group>"; };
 		7BB4931B24C1FA2300ED502E /* 缺失数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "缺失数字.swift"; sourceTree = "<group>"; };
@@ -339,6 +341,7 @@
 				7BB4932124C320E000ED502E /* 三数之和.swift */,
 				7BB4932324C3440C00ED502E /* 矩阵置零.swift */,
 				7BB30F9724E4378800038DCD /* 寻找两个正序数组的中位数.swift */,
+				7BB30F9924E4E4BE00038DCD /* 最接近的三数之和.swift */,
 			);
 			path = "数组";
 			sourceTree = "<group>";
@@ -504,6 +507,7 @@
 				7B5F6A2324CD5DFF004560BE /* 填充每个节点的下一个右侧节点指针.swift in Sources */,
 				7B55ACD32437921300BDE56A /* main.swift in Sources */,
 				7B686A1B24D5B70800928470 /* 寻找峰值.swift in Sources */,
+				7BB30F9A24E4E4BE00038DCD /* 最接近的三数之和.swift in Sources */,
 				7B5F6A3124CDA944004560BE /* 子集.swift in Sources */,
 				7BB4931A24C1F6EB00ED502E /*  帕斯卡三角形.swift in Sources */,
 				7BB4932424C3440C00ED502E /* 矩阵置零.swift in Sources */,
