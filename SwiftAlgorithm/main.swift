@@ -68,6 +68,4 @@ let c = ListNode(7)
 a.next = c
 b.next = c
 
-print(findMedianSortedArrays([1, 3], [2]))
-print(findMedianSortedArrays([1, 2], [3, 4]))
-print(findMedianSortedArrays([1, 3], [2, 4]))
+print(multiply("123", "100"))

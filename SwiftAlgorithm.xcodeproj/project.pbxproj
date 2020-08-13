@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		623DCCC724E5066C00A3A9FA /* 盛最多水的容器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623DCCC624E5066C00A3A9FA /* 盛最多水的容器.swift */; };
+		623DCCC924E5172100A3A9FA /* 字符串相乘.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623DCCC824E5172100A3A9FA /* 字符串相乘.swift */; };
 		62884F3424D1C7B10058BFEE /* 颜色分类.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62884F3324D1C7B10058BFEE /* 颜色分类.swift */; };
 		62A853BB24D1D43B00580CA8 /* 前 K 个高频元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A853BA24D1D43B00580CA8 /* 前 K 个高频元素.swift */; };
 		62CC9F3D24D07D8900008D02 /* 单词搜索.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CC9F3C24D07D8900008D02 /* 单词搜索.swift */; };
@@ -103,6 +105,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		623DCCC624E5066C00A3A9FA /* 盛最多水的容器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "盛最多水的容器.swift"; sourceTree = "<group>"; };
+		623DCCC824E5172100A3A9FA /* 字符串相乘.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "字符串相乘.swift"; sourceTree = "<group>"; };
 		62884F3324D1C7B10058BFEE /* 颜色分类.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "颜色分类.swift"; sourceTree = "<group>"; };
 		62A853BA24D1D43B00580CA8 /* 前 K 个高频元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "前 K 个高频元素.swift"; sourceTree = "<group>"; };
 		62CC9F3C24D07D8900008D02 /* 单词搜索.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "单词搜索.swift"; sourceTree = "<group>"; };
@@ -262,6 +266,7 @@
 				7BE59D5B24C415A9008684F9 /* 无重复字符的最长子串.swift */,
 				7BE59D5D24C42D73008684F9 /* 最长回文子串.swift */,
 				7BE59D5F24C448B8008684F9 /* 递增的三元子序列.swift */,
+				623DCCC824E5172100A3A9FA /* 字符串相乘.swift */,
 			);
 			path = "字符串";
 			sourceTree = "<group>";
@@ -342,6 +347,7 @@
 				7BB4932324C3440C00ED502E /* 矩阵置零.swift */,
 				7BB30F9724E4378800038DCD /* 寻找两个正序数组的中位数.swift */,
 				7BB30F9924E4E4BE00038DCD /* 最接近的三数之和.swift */,
+				623DCCC624E5066C00A3A9FA /* 盛最多水的容器.swift */,
 			);
 			path = "数组";
 			sourceTree = "<group>";
@@ -492,6 +498,7 @@
 				7B5F6A2724CD6FFD004560BE /* 岛屿数量.swift in Sources */,
 				7B5F6A1D24CC7C21004560BE /* 中序遍历二叉树.swift in Sources */,
 				7B18830A24DB0B0700532F86 /* 不同路径.swift in Sources */,
+				623DCCC924E5172100A3A9FA /* 字符串相乘.swift in Sources */,
 				7BF9F3B024BACB4100079ACA /* 爬楼梯.swift in Sources */,
 				62EF363F24DE64BB000AD617 /* Pow(x, n).swift in Sources */,
 				7BF9F3B824BAF87F00079ACA /* 计数质数.swift in Sources */,
@@ -522,6 +529,7 @@
 				7BC85E8C24D9AD04006EE8A8 /* 搜索旋转排序数组.swift in Sources */,
 				7BE59D6024C448B8008684F9 /* 递增的三元子序列.swift in Sources */,
 				7B179DCB24C972B600848515 /* 奇偶链表.swift in Sources */,
+				623DCCC724E5066C00A3A9FA /* 盛最多水的容器.swift in Sources */,
 				7BF9F3BA24BB010200079ACA /* 位1的个数.swift in Sources */,
 				7BC85E9024DB04CB006EE8A8 /* 跳跃游戏.swift in Sources */,
 				7B3CA67C24BD6FE700CDBE4A /* 旋转数组.swift in Sources */,
