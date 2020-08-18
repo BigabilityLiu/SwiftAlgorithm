@@ -63,6 +63,8 @@
 		7B7201CF24C132BF00820C63 /* 罗马数字转整数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7201CE24C132BF00820C63 /* 罗马数字转整数.swift */; };
 		7BB30F9824E4378800038DCD /* 寻找两个正序数组的中位数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB30F9724E4378800038DCD /* 寻找两个正序数组的中位数.swift */; };
 		7BB30F9A24E4E4BE00038DCD /* 最接近的三数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB30F9924E4E4BE00038DCD /* 最接近的三数之和.swift */; };
+		7BB30F9C24EA9F3A00038DCD /* 螺旋矩阵.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB30F9B24EA9F3A00038DCD /* 螺旋矩阵.swift */; };
+		7BB30F9E24EAA76200038DCD /* 螺旋矩阵 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB30F9D24EAA76200038DCD /* 螺旋矩阵 II.swift */; };
 		7BB492F824C186B500ED502E /* 543. 二叉树的直径.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB492F724C186B500ED502E /* 543. 二叉树的直径.swift */; };
 		7BB4931A24C1F6EB00ED502E /*  帕斯卡三角形.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB4931924C1F6EB00ED502E /*  帕斯卡三角形.swift */; };
 		7BB4931C24C1FA2300ED502E /* 缺失数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB4931B24C1FA2300ED502E /* 缺失数字.swift */; };
@@ -162,6 +164,8 @@
 		7B7201CE24C132BF00820C63 /* 罗马数字转整数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "罗马数字转整数.swift"; sourceTree = "<group>"; };
 		7BB30F9724E4378800038DCD /* 寻找两个正序数组的中位数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "寻找两个正序数组的中位数.swift"; sourceTree = "<group>"; };
 		7BB30F9924E4E4BE00038DCD /* 最接近的三数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "最接近的三数之和.swift"; sourceTree = "<group>"; };
+		7BB30F9B24EA9F3A00038DCD /* 螺旋矩阵.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "螺旋矩阵.swift"; sourceTree = "<group>"; };
+		7BB30F9D24EAA76200038DCD /* 螺旋矩阵 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "螺旋矩阵 II.swift"; sourceTree = "<group>"; };
 		7BB492F724C186B500ED502E /* 543. 二叉树的直径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "543. 二叉树的直径.swift"; sourceTree = "<group>"; };
 		7BB4931924C1F6EB00ED502E /*  帕斯卡三角形.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " 帕斯卡三角形.swift"; sourceTree = "<group>"; };
 		7BB4931B24C1FA2300ED502E /* 缺失数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "缺失数字.swift"; sourceTree = "<group>"; };
@@ -348,6 +352,8 @@
 				7BB30F9724E4378800038DCD /* 寻找两个正序数组的中位数.swift */,
 				7BB30F9924E4E4BE00038DCD /* 最接近的三数之和.swift */,
 				623DCCC624E5066C00A3A9FA /* 盛最多水的容器.swift */,
+				7BB30F9B24EA9F3A00038DCD /* 螺旋矩阵.swift */,
+				7BB30F9D24EAA76200038DCD /* 螺旋矩阵 II.swift */,
 			);
 			path = "数组";
 			sourceTree = "<group>";
@@ -481,6 +487,7 @@
 				7B5E849824AB613100DE152A /* 384.字符串中的第一个唯一字符.swift in Sources */,
 				7BB30F9824E4378800038DCD /* 寻找两个正序数组的中位数.swift in Sources */,
 				7B5F6A2F24CDA63E004560BE /* 全排列.swift in Sources */,
+				7BB30F9E24EAA76200038DCD /* 螺旋矩阵 II.swift in Sources */,
 				7B7201CA24C09DC100820C63 /* 最小栈.swift in Sources */,
 				7BB4932224C320E000ED502E /* 三数之和.swift in Sources */,
 				62EF364524DE9EC4000AD617 /* 两整数之和.swift in Sources */,
@@ -522,6 +529,7 @@
 				7B5F6A1F24CC8167004560BE /* 二叉树的锯齿形层次遍历.swift in Sources */,
 				7B5F6A2124CC8968004560BE /* 从前序与中序遍历序列构造二叉树.swift in Sources */,
 				7B3CA68A24BEB27400CDBE4A /* 234. 回文链表.swift in Sources */,
+				7BB30F9C24EA9F3A00038DCD /* 螺旋矩阵.swift in Sources */,
 				7BE59D5E24C42D73008684F9 /* 最长回文子串.swift in Sources */,
 				7BF9F3A824BAB8A800079ACA /* TreeNode.swift in Sources */,
 				7B3CA68F24BF382F00CDBE4A /* 环形链表.swift in Sources */,

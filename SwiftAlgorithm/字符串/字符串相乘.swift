@@ -12,53 +12,66 @@ func multiply(_ num1: String, _ num2: String) -> String {
     if num1 == "0" || num2 == "0" {
         return "0"
     }
-    let num1Array = num1.unicodeScalars.map{ Int($0.value - 48) }
-    var flag = 1
-    var result = 0
-    for i in 0..<num1Array.count {
-        let n = num1Array[num1Array.count - i - 1] * flag
-        if Int.max - result >= n {
-            result += n
-            flag *= 10
+    let num1Array: [Int] = num1.unicodeScalars.map{ Int($0.value - 48) }.reversed()
+    let num2Array: [Int] = num2.unicodeScalars.map{ Int($0.value - 48) }.reversed()
+    var dic = [Int: [Int]]()// key: num2 Number value: num1Array * key
+    var index = 0
+    var resultArray = [[Int]]()
+    for number2 in num2Array {
+        var array = [Int]()
+        if let a = dic[number2] {
+            array = a
         } else {
-            return String(Int.max)
+            var flag = 0 // 升位
+            for number1 in num1Array {
+                let multiple = number1 * number2
+                var mod = multiple % 10 + flag
+                flag = multiple / 10
+                if mod >= 10 {
+                    flag += 1
+                    mod -= 10
+                }
+                array.append(mod)
+            }
+            while flag > 0 {
+                array.append(flag % 10)
+                flag = flag / 10
+            }
+            dic[number2] = array
+        }
+        for _ in 0..<index {
+            array.insert(0, at: 0)
+        }
+        resultArray.append(array)
+        index += 1
+    }
+    var flag = 0
+    index = 0
+    var result = [Int]()
+    while true {
+        var current = 0
+        var shouldContinue = false
+        for array in resultArray {
+            if array.count > index {
+                shouldContinue = true
+                current += array[index]
+            }
+        }
+        if shouldContinue {
+            current += flag
+            flag = current / 10
+            result.append(current % 10)
+            index += 1
+            current = 0
+        } else {
+            while flag > 0 {
+                result.append(flag % 10)
+                flag = flag / 10
+            }
+            break
         }
     }
-    let num1Result = result
-    let num2Array = num2.unicodeScalars.map{ Int($0.value - 48) }
-    result = 0
-    flag = 1
-    for i in 0..<num2Array.count {
-        let n = num2Array[num2Array.count - i - 1] * flag
-        if Int.max - result >= n {
-            result += n
-            flag *= 10
-        } else {
-            return String(Int.max)
-        }
+    return result.reversed().reduce("") { (r, number) -> String in
+        return r + String(number)
     }
-    let num2Result = result
-    if (Int.max - (Int.max % num1Result)) / num1Result >= num2Result {
-        return String(num1Result * num2Result)
-    } else {
-        return String(Int.max)
-    }
-//    for i in 0..<num2Array.count {
-//        if Int.max / flag >= num2Array[num2Array.count - i - 1] {
-//            let n = num2Array[num2Array.count - i - 1] * flag
-//            if n == 0 {
-//                flag *= 10
-//            } else {
-//                if Int.max / n >= num1Result{
-//                    result += n * num1Result
-//                    flag *= 10
-//                } else {
-//                    return String(Int.max)
-//                }
-//            }
-//        } else {
-//            return String(Int.max)
-//        }
-//
-//    }
 }
