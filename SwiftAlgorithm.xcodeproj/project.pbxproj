@@ -65,6 +65,8 @@
 		7BB30F9A24E4E4BE00038DCD /* 最接近的三数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB30F9924E4E4BE00038DCD /* 最接近的三数之和.swift */; };
 		7BB30F9C24EA9F3A00038DCD /* 螺旋矩阵.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB30F9B24EA9F3A00038DCD /* 螺旋矩阵.swift */; };
 		7BB30F9E24EAA76200038DCD /* 螺旋矩阵 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB30F9D24EAA76200038DCD /* 螺旋矩阵 II.swift */; };
+		7BB30FA024EC21C600038DCD /* 合并K个排序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB30F9F24EC21C600038DCD /* 合并K个排序链表.swift */; };
+		7BB30FA224EC2AB000038DCD /* 旋转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB30FA124EC2AB000038DCD /* 旋转链表.swift */; };
 		7BB492F824C186B500ED502E /* 543. 二叉树的直径.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB492F724C186B500ED502E /* 543. 二叉树的直径.swift */; };
 		7BB4931A24C1F6EB00ED502E /*  帕斯卡三角形.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB4931924C1F6EB00ED502E /*  帕斯卡三角形.swift */; };
 		7BB4931C24C1FA2300ED502E /* 缺失数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB4931B24C1FA2300ED502E /* 缺失数字.swift */; };
@@ -166,6 +168,8 @@
 		7BB30F9924E4E4BE00038DCD /* 最接近的三数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "最接近的三数之和.swift"; sourceTree = "<group>"; };
 		7BB30F9B24EA9F3A00038DCD /* 螺旋矩阵.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "螺旋矩阵.swift"; sourceTree = "<group>"; };
 		7BB30F9D24EAA76200038DCD /* 螺旋矩阵 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "螺旋矩阵 II.swift"; sourceTree = "<group>"; };
+		7BB30F9F24EC21C600038DCD /* 合并K个排序链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "合并K个排序链表.swift"; sourceTree = "<group>"; };
+		7BB30FA124EC2AB000038DCD /* 旋转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "旋转链表.swift"; sourceTree = "<group>"; };
 		7BB492F724C186B500ED502E /* 543. 二叉树的直径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "543. 二叉树的直径.swift"; sourceTree = "<group>"; };
 		7BB4931924C1F6EB00ED502E /*  帕斯卡三角形.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " 帕斯卡三角形.swift"; sourceTree = "<group>"; };
 		7BB4931B24C1FA2300ED502E /* 缺失数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "缺失数字.swift"; sourceTree = "<group>"; };
@@ -286,6 +290,8 @@
 				7BE59D6124C4956A008684F9 /* 两数相加.swift */,
 				7B179DCA24C972B600848515 /* 奇偶链表.swift */,
 				7B5F6A1A24C9BD1A004560BE /* 相交链表.swift */,
+				7BB30F9F24EC21C600038DCD /* 合并K个排序链表.swift */,
+				7BB30FA124EC2AB000038DCD /* 旋转链表.swift */,
 			);
 			path = "链表";
 			sourceTree = "<group>";
@@ -490,6 +496,7 @@
 				7BB30F9E24EAA76200038DCD /* 螺旋矩阵 II.swift in Sources */,
 				7B7201CA24C09DC100820C63 /* 最小栈.swift in Sources */,
 				7BB4932224C320E000ED502E /* 三数之和.swift in Sources */,
+				7BB30FA224EC2AB000038DCD /* 旋转链表.swift in Sources */,
 				62EF364524DE9EC4000AD617 /* 两整数之和.swift in Sources */,
 				7BF9F3B324BAD2AE00079ACA /* 买卖股票的最佳时机.swift in Sources */,
 				7B7201CF24C132BF00820C63 /* 罗马数字转整数.swift in Sources */,
@@ -513,6 +520,7 @@
 				62EF363D24DE4DCE000AD617 /* 快乐数.swift in Sources */,
 				7BF9F3AD24BAC54B00079ACA /* 排序和搜索.swift in Sources */,
 				7B3CA69324BF560500CDBE4A /* 将有序数组转换为二叉搜索树.swift in Sources */,
+				7BB30FA024EC21C600038DCD /* 合并K个排序链表.swift in Sources */,
 				7BF9F3BD24BB4D0600079ACA /* 汉明距离.swift in Sources */,
 				7B3CA67A24BCB31300CDBE4A /* 有效的数独.swift in Sources */,
 				7B5F6A2524CD6A42004560BE /* 二叉搜索树中第K小的元素.swift in Sources */,

@@ -68,4 +68,4 @@ let c = ListNode(7)
 a.next = c
 b.next = c
 
-print(multiply("123", "100"))
+print(generateMatrix(2))
