@@ -51,6 +51,7 @@ a.next!.next = ListNode(4)
 let b = ListNode(2)
 b.next = ListNode(1)
 b.next!.next = ListNode(3)
+b.next!.next!.next = b
 //reverseList(a)
 
 let root = TreeNode(1)
@@ -64,8 +65,4 @@ right.right = TreeNode(5)
 right.left!.left = TreeNode(6)
 right.left!.right = TreeNode(7)
 
-let c = ListNode(7)
-a.next = c
-b.next = c
-
-print(generateMatrix(2))
+print(grayCode(2))

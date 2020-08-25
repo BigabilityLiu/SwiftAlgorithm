@@ -12,6 +12,8 @@
 		62884F3424D1C7B10058BFEE /* 颜色分类.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62884F3324D1C7B10058BFEE /* 颜色分类.swift */; };
 		62A853BB24D1D43B00580CA8 /* 前 K 个高频元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A853BA24D1D43B00580CA8 /* 前 K 个高频元素.swift */; };
 		62CC9F3D24D07D8900008D02 /* 单词搜索.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CC9F3C24D07D8900008D02 /* 单词搜索.swift */; };
+		62D228C524F011B70004D39E /* 环形链表 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D228C424F011B70004D39E /* 环形链表 II.swift */; };
+		62E596F824F5468700CE9666 /* 格雷编码.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E596F724F5468700CE9666 /* 格雷编码.swift */; };
 		62EF363B24DE4845000AD617 /* 常数时间插入、删除和获取随机元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EF363A24DE4845000AD617 /* 常数时间插入、删除和获取随机元素.swift */; };
 		62EF363D24DE4DCE000AD617 /* 快乐数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EF363C24DE4DCE000AD617 /* 快乐数.swift */; };
 		62EF363F24DE64BB000AD617 /* Pow(x, n).swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EF363E24DE64BB000AD617 /* Pow(x, n).swift */; };
@@ -114,6 +116,8 @@
 		62884F3324D1C7B10058BFEE /* 颜色分类.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "颜色分类.swift"; sourceTree = "<group>"; };
 		62A853BA24D1D43B00580CA8 /* 前 K 个高频元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "前 K 个高频元素.swift"; sourceTree = "<group>"; };
 		62CC9F3C24D07D8900008D02 /* 单词搜索.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "单词搜索.swift"; sourceTree = "<group>"; };
+		62D228C424F011B70004D39E /* 环形链表 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "环形链表 II.swift"; sourceTree = "<group>"; };
+		62E596F724F5468700CE9666 /* 格雷编码.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "格雷编码.swift"; sourceTree = "<group>"; };
 		62EF363A24DE4845000AD617 /* 常数时间插入、删除和获取随机元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "常数时间插入、删除和获取随机元素.swift"; sourceTree = "<group>"; };
 		62EF363C24DE4DCE000AD617 /* 快乐数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "快乐数.swift"; sourceTree = "<group>"; };
 		62EF363E24DE64BB000AD617 /* Pow(x, n).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pow(x, n).swift"; sourceTree = "<group>"; };
@@ -292,6 +296,7 @@
 				7B5F6A1A24C9BD1A004560BE /* 相交链表.swift */,
 				7BB30F9F24EC21C600038DCD /* 合并K个排序链表.swift */,
 				7BB30FA124EC2AB000038DCD /* 旋转链表.swift */,
+				62D228C424F011B70004D39E /* 环形链表 II.swift */,
 			);
 			path = "链表";
 			sourceTree = "<group>";
@@ -312,6 +317,7 @@
 				7B5F6A2E24CDA63E004560BE /* 全排列.swift */,
 				7B5F6A3024CDA944004560BE /* 子集.swift */,
 				62CC9F3C24D07D8900008D02 /* 单词搜索.swift */,
+				62E596F724F5468700CE9666 /* 格雷编码.swift */,
 			);
 			path = "回溯算法";
 			sourceTree = "<group>";
@@ -516,6 +522,7 @@
 				7BF9F3B024BACB4100079ACA /* 爬楼梯.swift in Sources */,
 				62EF363F24DE64BB000AD617 /* Pow(x, n).swift in Sources */,
 				7BF9F3B824BAF87F00079ACA /* 计数质数.swift in Sources */,
+				62E596F824F5468700CE9666 /* 格雷编码.swift in Sources */,
 				7B7201C224C080B800820C63 /* 第一个错误的版本.swift in Sources */,
 				62EF363D24DE4DCE000AD617 /* 快乐数.swift in Sources */,
 				7BF9F3AD24BAC54B00079ACA /* 排序和搜索.swift in Sources */,
@@ -547,6 +554,7 @@
 				7B179DCB24C972B600848515 /* 奇偶链表.swift in Sources */,
 				623DCCC724E5066C00A3A9FA /* 盛最多水的容器.swift in Sources */,
 				7BF9F3BA24BB010200079ACA /* 位1的个数.swift in Sources */,
+				62D228C524F011B70004D39E /* 环形链表 II.swift in Sources */,
 				7BC85E9024DB04CB006EE8A8 /* 跳跃游戏.swift in Sources */,
 				7B3CA67C24BD6FE700CDBE4A /* 旋转数组.swift in Sources */,
 				7B3CA68024BDB0B400CDBE4A /* 字符串转换整数 (atoi).swift in Sources */,
